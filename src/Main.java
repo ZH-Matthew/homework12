@@ -18,5 +18,13 @@ public class Main {
         System.out.println("siddhartha.getNameBook() = " + siddhartha.getNameBook());
         System.out.println("siddhartha.getAuthor().get(lName/fName) = " + siddhartha.getAuthor().getfName() + " " + siddhartha.getAuthor().getlName());
         System.out.println("siddhartha.getYear() = " + siddhartha.getYear());
+
+        System.out.println("warAndPeace.equals(siddhartha) = " + (warAndPeace.equals(siddhartha) ? "Строки равны" : "Строки не равны"));
+        System.out.println("warAndPeace.hashCode() = " + warAndPeace.hashCode());
+        System.out.println("siddhartha = " + siddhartha);
+
+        System.out.println("levTolstoy.equals(hermannHesse) = " + (levTolstoy.equals(hermannHesse) ? "Строки равны" : "Строки не равны"));
+        System.out.println("hermannHesse.hashCode() = " + hermannHesse.hashCode());
+        System.out.println("levTolstoy = " + levTolstoy);
     }
 }

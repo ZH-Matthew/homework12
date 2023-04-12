@@ -16,4 +16,23 @@ public class Author {
     public String getlName() {
         return this.lName;
     }
+
+    @Override
+    public boolean equals(Object other) {
+        if (this.getClass() != other.getClass()) {
+            return false;
+        }
+        Author c2 = (Author) other;
+        return fName.equals(c2.fName);
+    }
+
+    @Override
+    public int hashCode() {
+        return java.util.Objects.hash(fName);
+    }
+
+    @Override
+    public String toString() {
+        return "Автор: " + fName + " " + lName;
+    }
 }
