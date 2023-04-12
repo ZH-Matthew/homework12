@@ -27,4 +27,5 @@ public class Main {
         System.out.println("hermannHesse.hashCode() = " + hermannHesse.hashCode());
         System.out.println("levTolstoy = " + levTolstoy);
     }
+
 }

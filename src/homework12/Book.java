@@ -45,6 +45,5 @@ public class Book {
         return nameBook + " " + year + " Автор: " + author.getfName() + " " + author.getlName();
     }
 
-
 }
 
